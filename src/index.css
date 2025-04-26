@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary-bg-color: rgb(0, 0, 0);
+  --secondary-bg-color: #121212;
+
+  --bg-color-1: #242424;
+  --bg-color-2: #121212;
+  --profile-bg-color: #a855f7;
+
+  --primary-text-color: white;
+  --secondary-text-color: rgb(45, 45, 45);
+
+  --primary-btn-color: black;
+  --secondary-btn-color: white;
+  --tertiary-btn-color: green;
+  --btn-color01: #e7e7e7;
+
+
+  /* ************* BG ************* */
+  --bg01: linear-gradient(180deg, #22262a 0%, #181a1d 100%);
+
+  --bg02: linear-gradient(135deg, #2f3439, #1d1f23);
+
+  --bg03: linear-gradient(135deg, #2c3136, #1d2023);
+
+  --bg04: #040404;
+
+  --bg05: rgba(0, 0, 0, 0.5);
+
+  --border01: #22262a;
+  --border02: #1a1d21;
+
+  /* ************* BOX - SHADOW ************* */
+
+  --box-shadow01: 6px 6px 10px #151618, -6px 6px 10px #2c3136,
+    inset 2px 2px 6px #33353b, inset -3px 3px 6px #151618;
+
+  --box-shadow02: -6px -6px 10px #151618, 6px 6px 10px #2c3136,
+    inset 2px 2px 6px #33353b, inset -3px 3px 6px #151618;
+
+  --box-shadow03: 6px 6px 12px #151618, -6px -6px 12px #2c3136;
+
+  --box-shadow04:  0px 1.5px 3px 0px rgba(167, 169, 171, 0.322),
+    inset 1px 0px 1px 0px #4a4c4e;
+
+  --box-shadow05: 8px 8px 12px #151618, -2px 2px 10px #2c3136,
+    inset 2px 2px 3px #333536, inset 2px 2px 3px #151618;
+
+  --box-shadow06: 10px 10px 12px #151618, -10px 10px 12px #222529,
+    inset 4px 4px 8px #33353b, inset -4px 4px 8px #151618;
+
+  --box-shadow07: 10px 10px 12px #151618, -10px -10px 12px #222529,
+    inset -4px 4px 8px #333536, inset 4px 4px 8px #151618;
+
+  --box-shadow-play-btn01:10px 10px 12px #151618,
+  -10px -10px 12px #222529,
+  inset 4px 4px 8px #e5550b,
+  inset -4px -4px 8px #bd2210;
+
+  --box-shadow-play-btn02:  10px 10px 12px #151618,
+  -10px -10px 12px #222529,
+  inset -10px -10px 8px #e5550b,
+  inset 10px 10px 8px #bd2210;
+
+  --glow-shadow: 0 0 10px rgba(29, 185, 84, 0.5),
+                 0 0 20px rgba(29, 185, 84, 0.3),
+                 0 0 30px rgba(29, 185, 84, 0.2);
+
+  --glow-shadow-strong: 0 0 15px rgba(29, 185, 84, 0.7),
+                       0 0 25px rgba(29, 185, 84, 0.5),
+                       0 0 35px rgba(29, 185, 84, 0.3);
+
+  --play-btn-bg-gradient: linear-gradient(
+    90deg,
+    #169c46 0%,
+    #1DB954 80%
+  );
+
+  --play-btn-bg:  #1DB954;
+  ---play-btn-border:  3px solid #169c46;
+
+    /* Text Colors  */
+    --text-color01: #86898c;
+    --text-color02: #c2c4c6;
+
+    --mask: linear-gradient(
+      to right,
+      rgba(0,0,0,0),
+      rgba(0,0,0,1) 10%,
+      rgba(0,0,0,1) 80%,
+      rgba(0,0,0,0)
+    );
+
+    --drop-shadow01:
+                  drop-shadow(-1px -3px 2px #151618)
+                  drop-shadow(-1px 3px 1px #151618)
+                  drop-shadow(3px 3px 3px #2c3136);
+                  
+    --heart-glow-filter:
+      drop-shadow(-1px -2px 2px #4e0e0ead)
+      drop-shadow(-1px 2px 1px #4e0e0eb4)
+      drop-shadow(1px 1px 3px rgba(109, 1, 1, 0.79))
+      drop-shadow(0 0 5px rgba(255, 0, 68, 0.7))
+      drop-shadow(0 0 10px rgba(255, 0, 51, 0.5))
+      drop-shadow(0 0 15px rgba(255, 0, 0, 0.3));
+
+    --red-filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
