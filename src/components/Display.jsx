@@ -4,6 +4,7 @@ import { Routes, Route} from "react-router-dom";
 import DisplayHome from './DisplayHome';
 import DisplayAlbum from './DisplayAlbum';
 import DisplaySong from "./DisplaySong";
+import DisplaySearch from "./DisplaySearch";
 
 const Display = ()=> {
     return (
@@ -12,6 +13,7 @@ const Display = ()=> {
           <Route path="/" element={<DisplayHome />} />
           <Route path="/album/:id" element={<DisplayAlbum />} />
           <Route path="/song/:id" element={<DisplaySong />} />
+          <Route path="/search" element={<DisplaySearch />} />
         </Routes>
       </div>
     );
